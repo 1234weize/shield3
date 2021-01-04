@@ -24,10 +24,16 @@ export default class ShakaPlayer extends React.PureComponent {
     }
   }
 
+  async getSupport() {
+    const support = await shaka.Player.probeSupport();
+    return support;
+  }
+
   async load(src, config) {
     const {
       player
     } = this.controller;
+
     if(player) {
       player.configure(config);
       try {
