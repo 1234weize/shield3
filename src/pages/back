@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charSet="utf-8" />
-    <script src="dist/shaka-player.compiled.js"></script>
+<!--    <script src="dist/shaka-player.compiled.js"></script>-->
     <title>Your App</title>
 </head>
 <body>
