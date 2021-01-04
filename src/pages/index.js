@@ -34,7 +34,9 @@ class MicroPage extends Component {
       videoElement,
     } = this.player.current.getController();
 
-    console.log(player);
+    console.log('player',player);
+    const support = await this.player.current.getSupport();
+    console.log('support',support);
 
     player.configure({
       drm: {

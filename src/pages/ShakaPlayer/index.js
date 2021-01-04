@@ -59,6 +59,10 @@ export default class ShakaPlayer extends React.PureComponent {
     return this.controller;
   }
 
+  getSupport(){
+    return this.getSupport();
+  }
+
   render() {
     const {
       autoPlay,
