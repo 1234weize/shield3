@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6043434e-9c00-4b18-be01-6a271aced33c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.umirc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.umirc.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ShakaPlayer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShakaPlayer/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
@@ -24,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test/shield" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -55,6 +56,8 @@
       <workItem from="1609641451156" duration="5206000" />
       <workItem from="1609725220102" duration="3705000" />
       <workItem from="1609743740626" duration="3406000" />
+      <workItem from="1609811638321" duration="8216000" />
+      <workItem from="1609901833358" duration="2839000" />
     </task>
     <servers />
   </component>

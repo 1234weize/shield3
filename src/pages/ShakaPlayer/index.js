@@ -59,8 +59,9 @@ export default class ShakaPlayer extends React.PureComponent {
     return this.controller;
   }
 
-  getSupport(){
-    return this.getSupport();
+  async getSupport() {
+    const support = await shaka.Player.probeSupport();
+    return support;
   }
 
   render() {

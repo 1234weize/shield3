@@ -44,6 +44,12 @@ class MicroPage extends Component {
           'com.widevine.alpha': this.getLAUrl('widevine', this.state.entitlementToken),
           // 'com.microsoft.playready': this.getLAUrl('playready', this.state.entitlementToken),
         }
+        // advanced:{
+        //   'com.widevine.alpha': {
+        //     'videoRobustness': 'SW_SECURE_CRYPTO',
+        //     'audioRobustness': 'SW_SECURE_CRYPTO'
+        //   }
+        // }
       }
     });
 

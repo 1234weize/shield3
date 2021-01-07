@@ -7,9 +7,12 @@ export default defineConfig({
   routes: [
     { path: '/', component: '@/pages/index' },
   ],
-  // devServer: {
-  //   port: 8000,
-  //   host: '192.168.1.52',
-  //   https: true,
-  // }
+  devServer: {
+    port: 8000,
+    host: '192.168.1.52',
+    https: true,
+  },
+  targets:{
+    ie: 11
+  }
 });
