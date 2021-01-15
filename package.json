@@ -22,7 +22,10 @@
   "dependencies": {
     "@ant-design/pro-layout": "^6.5.0",
     "@umijs/preset-react": "1.x",
+    "arraybuffer-to-string": "^1.0.2",
+    "base64-to-uint8array": "^1.0.0",
     "prop-types": "^15.7.2",
+    "qs": "^6.9.6",
     "shaka-player-react": "^1.1.2",
     "umi": "^3.3.3"
   },
